@@ -4,8 +4,7 @@
 
 USE Chinook;
 
--- 1. Check for customers with no invoices
--- These customers exist but have never made a purchase
+-- 1. Customers with no invoices
 SELECT 
     c.CustomerId,
     c.FirstName,
@@ -15,29 +14,26 @@ LEFT JOIN invoices i
     ON c.CustomerId = i.CustomerId
 WHERE i.InvoiceId IS NULL;
 
--- 2. Check for invoices with no invoice items
--- Every invoice should have at least one item
+-- 2. Invoices with no items
 SELECT 
     i.InvoiceId,
     i.InvoiceDate,
     i.Total
 FROM invoices i
-LEFT JOIN invoice_items ii 
-    ON i.InvoiceId = ii.InvoiceId
-WHERE ii.InvoiceId IS NULL;
+LEFT JOIN InvoiceLine il
+    ON i.InvoiceId = il.InvoiceId
+WHERE il.InvoiceLineId IS NULL;
 
--- 3. Check for tracks that were never sold
--- Identifies products with zero sales
+-- 3. Tracks that were never sold
 SELECT 
     t.TrackId,
     t.Name
 FROM tracks t
-LEFT JOIN invoice_items ii 
-    ON t.TrackId = ii.TrackId
-WHERE ii.TrackId IS NULL;
+LEFT JOIN InvoiceLine il
+    ON t.TrackId = il.TrackId
+WHERE il.TrackId IS NULL;
 
--- 4. Check for negative or zero invoice totals
--- Invoice totals should always be positive
+-- 4. Invoices with zero or negative totals
 SELECT 
     InvoiceId,
     Total
