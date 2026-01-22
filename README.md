@@ -5,8 +5,12 @@ This project analyzes the Chinook sample database, which represents a digital mu
 The objective is to explore relational data, assess data quality, and generate summary reports using SQL.
 
 ## Dataset
-- Chinook Database (MySQL)
 - Data includes customers, invoices, tracks, albums, and artists.
+- Chinook Sample Database (MySQL)
+- Publicly available sample database
+- Data includes customers, invoices, tracks, albums, and artists.
+- Source: https://github.com/lerocha/chinook-database
+
 
 ## Tools Used
 - MySQL
