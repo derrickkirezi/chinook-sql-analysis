@@ -20,7 +20,9 @@ The objective is to explore relational data, assess data quality, and generate s
 ## Project Structure
 - `sql/` – SQL scripts used for analysis
   - `01_database_overview.sql` – Database structure and relationship exploration
+  - `02_data_quality_checks.sql` – Checking data quality 
 
 ## Progress
 - ✅ Step 1: Database overview and relationships completed
-- ⏳ Step 2: Data quality checks (next)
+- ✅ Step 2: Data quality checks completed
+- ⏳ Step 3: Sales and customer analysis (next)
