@@ -1,11 +1,11 @@
 -- Sales & customer analysis
 -- Purpose: analyze revenue, customers, and top products
 
--- -- RESULTS SUMMARY
--- 1. Revenues per customer are tight. There are no big differences.
--- 2. Most revenue comes from USA, then Canada, then France
--- 3. top artists generate significant income
--- 4. Rock and Jazz are the most sold genres
+-- RESULTS SUMMARY
+  -- 1. Revenues per customer are tight. There are no big differences.
+  -- 2. Most revenue comes from USA, then Canada, then France
+  -- 3. top artists generate significant income
+  -- 4. Rock and Latin are the most sold genres
 
 
 USE chinook;
