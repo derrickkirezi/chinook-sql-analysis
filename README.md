@@ -18,9 +18,9 @@ The objective is to explore relational data, assess data quality, and generate s
 - MySQL Workbench
 
 ## Project Structure
-- `sql/` – SQL queries used for analysis
-- `results/` – Output tables and charts
-- `report/` – Project summary and documentation
+- `sql/` – SQL scripts used for analysis
+  - `01_database_overview.sql` – Database structure and relationship exploration
 
-## Status
-🚧 Work in progress
+## Progress
+- ✅ Step 1: Database overview and relationships completed
+- ⏳ Step 2: Data quality checks (next)
