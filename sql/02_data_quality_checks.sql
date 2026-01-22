@@ -1,6 +1,16 @@
--- Data Quality Checks
--- Purpose: Identify missing and inconsistent records
+-- Data quality check
+-- Purpose: identify missing and inconsistent records
 -- in the Chinook database
+
+-- SUMMARY RESULTS
+  -- 1. Customers with no invoices: None
+  -- 2. Invoices with no items: None
+  -- 3. Tracks never sold: Many
+  -- 4. Invoices with zero/negative totals: None
+  --
+ -- INTERPRETATION:
+  -- Overall, the database is consistent. The only issue is that some tracks have never been sold, which may be due to low demand or newly introduced products.
+
 
 USE Chinook;
 
@@ -39,13 +49,3 @@ SELECT
     Total
 FROM invoices
 WHERE Total <= 0;
-
--- DATA QUALITY CHECK RESULTS
--- 1. Customers with no invoices: None
--- 2. Invoices with no items: None
--- 3. Tracks never sold: Many
--- 4. Invoices with zero/negative totals: None
---
--- Interpretation:
--- Overall, the database is consistent. The only issue is that some tracks have never been sold, which may be due to low demand or new products.
-
