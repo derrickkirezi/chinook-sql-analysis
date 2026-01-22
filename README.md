@@ -25,4 +25,9 @@ The objective is to explore relational data, assess data quality, and generate s
 ## Progress
 - ✅ Step 1: Database overview and relationships completed
 - ✅ Step 2: Data quality checks completed
+  - All customers have invoices
+  - All invoices have items
+  - Some tracks have never been sold (low demand)
+  - All invoices have positive totals
+
 - ⏳ Step 3: Sales and customer analysis (next)
