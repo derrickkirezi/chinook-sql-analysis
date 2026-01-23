@@ -1,33 +1,50 @@
-# Chinook SQL Data Analysis Project
+# chinook SQL & Excel data analysis project
 
-## Project Overview
-This project analyzes the Chinook sample database, which represents a digital music store. 
-The objective is to explore relational data, assess data quality, and generate summary reports using SQL.
+## Project overview
+This project analyzes the chinook sample database, which is basically a digital music store. 
+The objective is to explore the database structure, validate data quality, perform sales and customer analysis, and generate outputs that are ready for research and decision making.
 
 ## Dataset
-- Data includes customers, invoices, tracks, albums, and artists.
-- Chinook Sample Database (MySQL)
-- Publicly available sample database
-- Data includes customers, invoices, tracks, albums, and artists.
-- Source: https://github.com/lerocha/chinook-database
+- chinook Sample Database (MySQL)
+- Source: https://github.com/lerocha/chinook-database/releases   (filename: "Chinook_MySql.sql)
 
-
-## Tools Used
-- MySQL
-- SQL
+## Tools & technologies
+- MySQL Server
 - MySQL Workbench
+- SQL
+- Microsoft Excel
 
-## Project Structure
-- `sql/` – SQL scripts used for analysis
-  - `01_database_overview.sql` – Database structure and relationship exploration
-  - `02_data_quality_checks.sql` – Checking data quality 
+## Project structure
+- `README.md`
+- `sql/` 
+   - `01_database_overview.sql`
+   - `02_data_quality_checks.sql`
+   - `03_sales_customer_analysis.sql`
+   - `04_reporting_queries.sql` 
+- `chinook_sales_analysis.xlsx`
 
-## Progress
-- ✅ Step 1: Database overview and relationships completed
-- ✅ Step 2: Data quality checks completed
-  - All customers have invoices
-  - All invoices have items
-  - Some tracks have never been sold (low demand)
-  - All invoices have positive totals
+## Key analysis steps
+1. `Database overview & relationships`
+   - Explored tables and verified key relationships between customers, invoices, tracks, albums, and artists.
 
-- ⏳ Step 3: Sales and customer analysis (next)
+2. `Data quality checks`
+   - Verified that all customers have invoices.
+   - Confirmed all invoices contain line items.
+   - Identified tracks that were never sold.
+   - Confirmed all invoice totals are positive.
+
+3. `Sales & customer analysis`
+   - Analyzed revenue per customer and per country.
+   - Identified top-performing artists and genres.
+   - Evaluated product demand using sales quantities.
+
+4. `Reporting & visualization`
+   - Created report-ready SQL queries.
+   - Exported results to Excel.
+   - Built charts to visualize trends and rankings.
+
+## Key insights
+- Revenue follows clear monthly trends over time.
+- All customers contribute significant shares in revenue.
+- Rock genre extremely outperforms other genres in revenue.
+- Several tracks have never been sold, maybe due to low demand.
