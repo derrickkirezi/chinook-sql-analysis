@@ -17,11 +17,7 @@ The objective is to explore the database structure, validate data quality, perfo
 ## Project structure
 - `README.md`
 - `sql/` 
-   - `01_database_overview.sql`
-   - `02_data_quality_checks.sql`
-   - `03_sales_customer_analysis.sql`
-   - `04_reporting_queries.sql` 
-- `chinook_sales_analysis.xlsx`
+- `Results`
 
 ## Key analysis steps
 1. `Database overview & relationships`
