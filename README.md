@@ -9,7 +9,6 @@ The objective is to explore the database structure, validate data quality, perfo
 - Source: https://github.com/lerocha/chinook-database/releases   (filename: "Chinook_MySql.sql)
 
 ## Tools & technologies
-- MySQL Server
 - MySQL Workbench
 - SQL
 - Microsoft Excel
