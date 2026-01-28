@@ -48,3 +48,5 @@ The objective is to explore the database structure, validate data quality, perfo
 - All customers contribute significant shares in revenue.
 - Rock genre extremely outperforms other genres in revenue.
 - Several tracks have never been sold, maybe due to low demand.
+
+![Report](images/screenshot.png)
