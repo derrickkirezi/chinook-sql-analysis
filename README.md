@@ -19,7 +19,6 @@ The objective is to explore the database structure, validate data quality, perfo
 
 2. `Data quality checks`
    - Verified that all customers have invoices.
-   - Confirmed all invoices contain line items.
    - Identified tracks that were never sold.
    - Confirmed all invoice totals are positive.
 
