@@ -8,15 +8,10 @@ The objective is to explore the database structure, validate data quality, perfo
 - chinook Sample Database (MySQL)
 - Source: https://github.com/lerocha/chinook-database/releases   (filename: "Chinook_MySql.sql)
 
-## Tools & technologies
+## Tools
 - MySQL Workbench
 - SQL
 - Microsoft Excel
-
-## Project structure
-- `README.md`
-- `sql/` 
-- `Results`
 
 ## Key analysis steps
 1. `Database overview & relationships`
@@ -34,7 +29,7 @@ The objective is to explore the database structure, validate data quality, perfo
    - Evaluated product demand using sales quantities.
 
 4. `Reporting & visualization`
-   - Created report-ready SQL queries.
+   - Created SQL queries.
    - Exported results to Excel.
    - Built charts to visualize trends and rankings.
 
