@@ -32,7 +32,7 @@ The objective is to explore the database structure, validate data quality, perfo
    - Exported results to Excel.
    - Built charts to visualize trends and rankings.
 
-## Key insights
+## Notable insights
 - Revenue follows clear monthly trends over time.
 - All customers contribute significant shares in revenue.
 - Rock genre extremely outperforms other genres in revenue.
