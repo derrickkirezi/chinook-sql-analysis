@@ -13,7 +13,7 @@ The objective is to explore the database structure, validate data quality, perfo
 - SQL
 - Microsoft Excel
 
-## Key analysis steps
+## Analyses
 1. `Database overview & relationships`
    - Explored tables and verified key relationships between customers, invoices, tracks, albums, and artists.
 
